@@ -14,9 +14,16 @@ def main():
 # to-do later
 # while loop to keep playing
 
-    user_input = input("Enter your choice: ")
-    options = ['rock', 'paper', 'scissors']
-    comp_input = random.choice(options)
+    print("Let's play rock, paper, scissors")
+
+    user_choice = input("Enter your choice: ")
+    options = ["rock", "paper", "scissors"]
+    comp_choice = random.choice(options)
+    print(f"you chose {user_choice}, computer chose {comp_choice}")
+
+
+
+
 
 
 
